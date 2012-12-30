@@ -1,0 +1,266 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'nodester-cli', '-g' ]
+2 info using npm@1.1.65
+3 info using node@v0.8.14
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'nodester-cli', null ]
+7 silly cache add name=undefined spec="nodester-cli" args=["nodester-cli",null]
+8 verbose parsed url { pathname: 'nodester-cli',
+8 verbose parsed url   path: 'nodester-cli',
+8 verbose parsed url   href: 'nodester-cli' }
+9 silly lockFile f4945e18-nodester-cli nodester-cli
+10 verbose lock nodester-cli /Users/john.polacek/.npm/f4945e18-nodester-cli.lock
+11 silly lockFile f4945e18-nodester-cli nodester-cli
+12 verbose addNamed [ 'nodester-cli', '' ]
+13 verbose addNamed [ null, '' ]
+14 silly lockFile d734daae-nodester-cli nodester-cli@
+15 verbose lock nodester-cli@ /Users/john.polacek/.npm/d734daae-nodester-cli.lock
+16 silly addNameRange { name: 'nodester-cli', range: '', hasData: false }
+17 verbose url raw nodester-cli
+18 verbose url resolving [ 'https://registry.npmjs.org/', './nodester-cli' ]
+19 verbose url resolved https://registry.npmjs.org/nodester-cli
+20 info trying registry request attempt 1 at 16:15:16
+21 http GET https://registry.npmjs.org/nodester-cli
+22 http 200 https://registry.npmjs.org/nodester-cli
+23 silly registry.get cb [ 200,
+23 silly registry.get   { vary: 'Accept',
+23 silly registry.get     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+23 silly registry.get     etag: '"C1FFY9BA5T07IB03B9AG9E68D"',
+23 silly registry.get     date: 'Sat, 29 Dec 2012 22:13:31 GMT',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'content-length': '81438' } ]
+24 silly addNameRange number 2 { name: 'nodester-cli', range: '', hasData: true }
+25 silly addNameRange versions [ 'nodester-cli',
+25 silly addNameRange   [ '0.1.0',
+25 silly addNameRange     '0.1.1',
+25 silly addNameRange     '0.1.2',
+25 silly addNameRange     '0.1.3',
+25 silly addNameRange     '0.1.5',
+25 silly addNameRange     '0.1.6',
+25 silly addNameRange     '0.1.7',
+25 silly addNameRange     '0.2.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.2.3',
+25 silly addNameRange     '0.2.4',
+25 silly addNameRange     '0.2.5',
+25 silly addNameRange     '0.2.6',
+25 silly addNameRange     '0.2.7',
+25 silly addNameRange     '0.2.8',
+25 silly addNameRange     '0.2.9',
+25 silly addNameRange     '0.2.10',
+25 silly addNameRange     '0.2.11',
+25 silly addNameRange     '0.2.12',
+25 silly addNameRange     '0.2.13',
+25 silly addNameRange     '0.2.14',
+25 silly addNameRange     '0.2.15',
+25 silly addNameRange     '0.2.17',
+25 silly addNameRange     '0.2.18',
+25 silly addNameRange     '0.2.19',
+25 silly addNameRange     '0.2.20',
+25 silly addNameRange     '0.2.31',
+25 silly addNameRange     '0.2.32',
+25 silly addNameRange     '0.2.33',
+25 silly addNameRange     '0.2.34',
+25 silly addNameRange     '0.2.35',
+25 silly addNameRange     '0.2.36',
+25 silly addNameRange     '0.2.37',
+25 silly addNameRange     '0.2.38',
+25 silly addNameRange     '0.2.39',
+25 silly addNameRange     '0.2.40',
+25 silly addNameRange     '0.2.41',
+25 silly addNameRange     '0.2.42',
+25 silly addNameRange     '0.2.43',
+25 silly addNameRange     '0.2.44',
+25 silly addNameRange     '0.2.45',
+25 silly addNameRange     '0.2.46',
+25 silly addNameRange     '0.2.47',
+25 silly addNameRange     '0.2.48',
+25 silly addNameRange     '0.2.49',
+25 silly addNameRange     '0.2.50',
+25 silly addNameRange     '1.0.0',
+25 silly addNameRange     '1.0.1',
+25 silly addNameRange     '1.0.2',
+25 silly addNameRange     '1.0.3',
+25 silly addNameRange     '1.0.4',
+25 silly addNameRange     '1.1.0',
+25 silly addNameRange     '1.1.1' ] ]
+26 verbose addNamed [ 'nodester-cli', '1.1.1' ]
+27 verbose addNamed [ '1.1.1', '1.1.1' ]
+28 silly lockFile a8adbddf-nodester-cli-1-1-1 nodester-cli@1.1.1
+29 verbose lock nodester-cli@1.1.1 /Users/john.polacek/.npm/a8adbddf-nodester-cli-1-1-1.lock
+30 silly lockFile bd586c51-ester-cli-nodester-cli-1-1-1-tgz https://registry.npmjs.org/nodester-cli/-/nodester-cli-1.1.1.tgz
+31 verbose lock https://registry.npmjs.org/nodester-cli/-/nodester-cli-1.1.1.tgz /Users/john.polacek/.npm/bd586c51-ester-cli-nodester-cli-1-1-1-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/nodester-cli/-/nodester-cli-1.1.1.tgz',
+32 verbose addRemoteTarball   '38929e52553ee06ee9dfc8b5cb33a9b21f2ed631' ]
+33 info retry fetch attempt 1 at 16:15:17
+34 verbose fetch to= /var/folders/5i/5iuBy+rzFqaYEtCeuPgmllviXTU/-Tmp-/npm-718/1356819317075-0.07783780083991587/tmp.tgz
+35 http GET https://registry.npmjs.org/nodester-cli/-/nodester-cli-1.1.1.tgz
+36 http 200 https://registry.npmjs.org/nodester-cli/-/nodester-cli-1.1.1.tgz
+37 silly shasum updated bytes 15355
+38 info shasum 38929e52553ee06ee9dfc8b5cb33a9b21f2ed631
+38 info shasum /var/folders/5i/5iuBy+rzFqaYEtCeuPgmllviXTU/-Tmp-/npm-718/1356819317075-0.07783780083991587/tmp.tgz
+39 verbose tar unpack /var/folders/5i/5iuBy+rzFqaYEtCeuPgmllviXTU/-Tmp-/npm-718/1356819317075-0.07783780083991587/tmp.tgz
+40 silly lockFile 53d170d2-7075-0-07783780083991587-package /var/folders/5i/5iuBy+rzFqaYEtCeuPgmllviXTU/-Tmp-/npm-718/1356819317075-0.07783780083991587/package
+41 verbose lock /var/folders/5i/5iuBy+rzFqaYEtCeuPgmllviXTU/-Tmp-/npm-718/1356819317075-0.07783780083991587/package /Users/john.polacek/.npm/53d170d2-7075-0-07783780083991587-package.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+45 silly gunzTarPerm extractEntry .npmignore
+46 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+47 silly gunzTarPerm extractEntry README.md
+48 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+49 silly gunzTarPerm extractEntry .travis.yml
+50 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+51 silly gunzTarPerm extractEntry bin/nodester.js
+52 silly gunzTarPerm modified mode [ 'bin/nodester.js', 511, 493 ]
+53 silly gunzTarPerm extractEntry config.json
+54 silly gunzTarPerm modified mode [ 'config.json', 438, 420 ]
+55 silly gunzTarPerm extractEntry examples/mynodester.js
+56 silly gunzTarPerm modified mode [ 'examples/mynodester.js', 511, 493 ]
+57 silly gunzTarPerm extractEntry examples/davster
+58 silly gunzTarPerm modified mode [ 'examples/davster', 511, 493 ]
+59 silly gunzTarPerm extractEntry lib/app.js
+60 silly gunzTarPerm modified mode [ 'lib/app.js', 438, 420 ]
+61 silly gunzTarPerm extractEntry lib/apps.js
+62 silly gunzTarPerm modified mode [ 'lib/apps.js', 438, 420 ]
+63 silly gunzTarPerm extractEntry lib/client.js
+64 silly gunzTarPerm modified mode [ 'lib/client.js', 438, 420 ]
+65 silly gunzTarPerm extractEntry lib/commands.js
+66 silly gunzTarPerm modified mode [ 'lib/commands.js', 438, 420 ]
+67 silly gunzTarPerm extractEntry lib/config.js
+68 silly gunzTarPerm modified mode [ 'lib/config.js', 438, 420 ]
+69 silly gunzTarPerm extractEntry lib/appdomain.js
+70 silly gunzTarPerm modified mode [ 'lib/appdomain.js', 438, 420 ]
+71 silly gunzTarPerm extractEntry lib/env.js
+72 silly gunzTarPerm modified mode [ 'lib/env.js', 438, 420 ]
+73 silly gunzTarPerm extractEntry lib/log.js
+74 silly gunzTarPerm modified mode [ 'lib/log.js', 438, 420 ]
+75 silly gunzTarPerm extractEntry lib/npm.js
+76 silly gunzTarPerm modified mode [ 'lib/npm.js', 438, 420 ]
+77 silly gunzTarPerm extractEntry lib/status.js
+78 silly gunzTarPerm modified mode [ 'lib/status.js', 438, 420 ]
+79 silly gunzTarPerm extractEntry lib/user.js
+80 silly gunzTarPerm modified mode [ 'lib/user.js', 438, 420 ]
+81 silly gunzTarPerm extractEntry lib/coupon.js
+82 silly gunzTarPerm modified mode [ 'lib/coupon.js', 438, 420 ]
+83 silly gunzTarPerm extractEntry test/test-app.js
+84 silly gunzTarPerm modified mode [ 'test/test-app.js', 438, 420 ]
+85 verbose read json /var/folders/5i/5iuBy+rzFqaYEtCeuPgmllviXTU/-Tmp-/npm-718/1356819317075-0.07783780083991587/package/package.json
+86 silly lockFile 53d170d2-7075-0-07783780083991587-package /var/folders/5i/5iuBy+rzFqaYEtCeuPgmllviXTU/-Tmp-/npm-718/1356819317075-0.07783780083991587/package
+87 verbose from cache /var/folders/5i/5iuBy+rzFqaYEtCeuPgmllviXTU/-Tmp-/npm-718/1356819317075-0.07783780083991587/package/package.json
+88 verbose tar pack [ '/Users/john.polacek/.npm/nodester-cli/1.1.1/package.tgz',
+88 verbose tar pack   '/var/folders/5i/5iuBy+rzFqaYEtCeuPgmllviXTU/-Tmp-/npm-718/1356819317075-0.07783780083991587/package' ]
+89 verbose tarball /Users/john.polacek/.npm/nodester-cli/1.1.1/package.tgz
+90 verbose folder /var/folders/5i/5iuBy+rzFqaYEtCeuPgmllviXTU/-Tmp-/npm-718/1356819317075-0.07783780083991587/package
+91 silly lockFile 33982be8-m-nodester-cli-1-1-1-package-tgz /Users/john.polacek/.npm/nodester-cli/1.1.1/package.tgz
+92 verbose lock /Users/john.polacek/.npm/nodester-cli/1.1.1/package.tgz /Users/john.polacek/.npm/33982be8-m-nodester-cli-1-1-1-package-tgz.lock
+93 silly lockFile 33982be8-m-nodester-cli-1-1-1-package-tgz /Users/john.polacek/.npm/nodester-cli/1.1.1/package.tgz
+94 silly lockFile 8aaf89ef-k-npm-nodester-cli-1-1-1-package /Users/john.polacek/.npm/nodester-cli/1.1.1/package
+95 verbose lock /Users/john.polacek/.npm/nodester-cli/1.1.1/package /Users/john.polacek/.npm/8aaf89ef-k-npm-nodester-cli-1-1-1-package.lock
+96 silly lockFile 8aaf89ef-k-npm-nodester-cli-1-1-1-package /Users/john.polacek/.npm/nodester-cli/1.1.1/package
+97 verbose tar unpack /Users/john.polacek/.npm/nodester-cli/1.1.1/package.tgz
+98 silly lockFile 8aaf89ef-k-npm-nodester-cli-1-1-1-package /Users/john.polacek/.npm/nodester-cli/1.1.1/package
+99 verbose lock /Users/john.polacek/.npm/nodester-cli/1.1.1/package /Users/john.polacek/.npm/8aaf89ef-k-npm-nodester-cli-1-1-1-package.lock
+100 silly gunzTarPerm modes [ '755', '644' ]
+101 silly gunzTarPerm extractEntry package.json
+102 silly gunzTarPerm extractEntry .npmignore
+103 silly gunzTarPerm extractEntry README.md
+104 silly gunzTarPerm extractEntry .travis.yml
+105 silly gunzTarPerm extractEntry bin/nodester.js
+106 silly gunzTarPerm extractEntry config.json
+107 silly gunzTarPerm extractEntry examples/mynodester.js
+108 silly gunzTarPerm extractEntry examples/davster
+109 silly gunzTarPerm extractEntry lib/app.js
+110 silly gunzTarPerm extractEntry lib/apps.js
+111 silly gunzTarPerm extractEntry lib/client.js
+112 silly gunzTarPerm extractEntry lib/commands.js
+113 silly gunzTarPerm extractEntry lib/config.js
+114 silly gunzTarPerm extractEntry lib/appdomain.js
+115 silly gunzTarPerm extractEntry lib/env.js
+116 silly gunzTarPerm extractEntry lib/log.js
+117 silly gunzTarPerm extractEntry lib/npm.js
+118 silly gunzTarPerm extractEntry lib/status.js
+119 silly gunzTarPerm extractEntry lib/user.js
+120 silly gunzTarPerm extractEntry lib/coupon.js
+121 silly gunzTarPerm extractEntry test/test-app.js
+122 verbose read json /Users/john.polacek/.npm/nodester-cli/1.1.1/package/package.json
+123 silly lockFile 8aaf89ef-k-npm-nodester-cli-1-1-1-package /Users/john.polacek/.npm/nodester-cli/1.1.1/package
+124 silly shasum updated bytes 17770
+125 info shasum e772daa47b75f2a8e630d3c72a2e91519c42b29c
+125 info shasum /Users/john.polacek/.npm/nodester-cli/1.1.1/package.tgz
+126 verbose from cache /Users/john.polacek/.npm/nodester-cli/1.1.1/package/package.json
+127 verbose chmod /Users/john.polacek/.npm/nodester-cli/1.1.1/package.tgz 644
+128 verbose chown /Users/john.polacek/.npm/nodester-cli/1.1.1/package.tgz [ 518950392, 1106437719 ]
+129 silly lockFile bd586c51-ester-cli-nodester-cli-1-1-1-tgz https://registry.npmjs.org/nodester-cli/-/nodester-cli-1.1.1.tgz
+130 silly lockFile a8adbddf-nodester-cli-1-1-1 nodester-cli@1.1.1
+131 silly lockFile d734daae-nodester-cli nodester-cli@
+132 silly resolved [ { name: 'nodester-cli',
+132 silly resolved     description: 'A CLI tool to allow interaction with the http://nodester.com/ platform.',
+132 silly resolved     version: '1.1.1',
+132 silly resolved     homepage: 'http://nodester.com/',
+132 silly resolved     repository:
+132 silly resolved      { type: 'git',
+132 silly resolved        url: 'git://github.com/nodester/nodester-cli.git' },
+132 silly resolved     author:
+132 silly resolved      { name: 'Daniel Bartlett',
+132 silly resolved        email: 'dan@f-box.org',
+132 silly resolved        url: 'http://danb-uk.net/' },
+132 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+132 silly resolved     preferGlobal: 'true',
+132 silly resolved     bin: { nodester: './bin/nodester.js' },
+132 silly resolved     main: './bin/nodester.js',
+132 silly resolved     scripts:
+132 silly resolved      { start: 'node ./bin/nodester.js',
+132 silly resolved        test: 'mocha test/test-*.js -R  spec' },
+132 silly resolved     engines: { node: '>0.6.x =<0.8.x' },
+132 silly resolved     dependencies:
+132 silly resolved      { 'nodester-api': 'latest',
+132 silly resolved        colors: '0.3.0',
+132 silly resolved        iniparser: '1.0.1',
+132 silly resolved        read: '~0.1.0',
+132 silly resolved        'cli-table': '0.0.2' },
+132 silly resolved     devDependencies: { mocha: '~1.0.3' },
+132 silly resolved     readme: '# Nodester API CLI access [![Build Status](https://secure.travis-ci.org/alejandromg/nodester-cli.png)](http://travis-ci.org/nodester/nodester-cli)\n\nThis app is a little wrapper around the REST API for the [Nodester](http://nodester.com/) OS Node hosting platform.\n\n## Installation\n\n    npm install nodester-cli -g\n\n\n## Usage\n\nIn your CLI run one of these commands:\n\n    $ nodester \n    $ nodester app <usage>\n    $ nodester user <usage>\n\nEach of them will outpot the help for the respective command.\n\n\n## Local installation\n\nIf you have your own instance of [Nodester](http://nodester.com/) installed on your own server, the command line app is designed to work with that too. Currently it supports 3 environment variables to change a couple of default settings.\n\nHere is a simple example:\n\n    #!/bin/bash\n\n    export NODESTER_BRAND=davster;\n    export NODESTER_APIHOST=auth.davglass.com;\n    nodester "$@"\n    export NODESTER_BRAND=;\n    export NODESTER_APIHOST=;\n\n**In the newest version of `nodester-cli`** you can easily switch betwen instances running:\n\n    $ nodester config set <apiendpoint> <brand>\n\nafter this you can access to your instance. To rollback to the nodester endpoint run:\n\n    $ nodester config set api.nodester.com nodester\n\nAlso you can see what is the current configuration running: \n\n    $ nodester config get\n\n\nAlso you can take a look at `examples` and see how can you roll out your personal nodester-cli\n\n\n## Contributors\n\nThe nodester community (`nodester authors`):\n\n\t- [Chris Matthieu](http://matthieu.us)\n    - [Daniel Bartlett <dan@f-box.org>](http://danb-uk.net/)\n    - [Dav Glass <davglass@gmail.com>](http://twitter/@davglass)\n    - Abraham Williams <4braham@gmail.com>\n    - Contra <contra@australia.edu>\n    - Marcos Oliveira <marcosvm@gmail.com>\n    - [Alejandro Morales](http://alejandromorales.co.cc)\n\n## License\n\nMIT 2012 - Nodester\n\n',
+132 silly resolved     readmeFilename: 'README.md',
+132 silly resolved     _id: 'nodester-cli@1.1.1',
+132 silly resolved     dist: { shasum: 'e772daa47b75f2a8e630d3c72a2e91519c42b29c' },
+132 silly resolved     _from: 'nodester-cli' } ]
+133 info install nodester-cli@1.1.1 into /usr/local/lib
+134 info installOne nodester-cli@1.1.1
+135 verbose from cache /Users/john.polacek/.npm/nodester-cli/1.1.1/package/package.json
+136 info /usr/local/lib/node_modules/nodester-cli unbuild
+137 verbose read json /usr/local/lib/node_modules/nodester-cli/package.json
+138 verbose tar unpack /Users/john.polacek/.npm/nodester-cli/1.1.1/package.tgz
+139 silly lockFile fdfab529-al-lib-node-modules-nodester-cli /usr/local/lib/node_modules/nodester-cli
+140 verbose lock /usr/local/lib/node_modules/nodester-cli /Users/john.polacek/.npm/fdfab529-al-lib-node-modules-nodester-cli.lock
+141 silly gunzTarPerm modes [ '755', '644' ]
+142 error Error: EACCES, mkdir '/usr/local/lib/node_modules/nodester-cli'
+142 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/nodester-cli']
+142 error   errno: 3,
+142 error   code: 'EACCES',
+142 error   path: '/usr/local/lib/node_modules/nodester-cli',
+142 error   fstream_type: 'Directory',
+142 error   fstream_path: '/usr/local/lib/node_modules/nodester-cli',
+142 error   fstream_class: 'DirWriter',
+142 error   fstream_stack:
+142 error    [ 'DirWriter._create (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23)',
+142 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+142 error      'Object.oncomplete (fs.js:297:15)' ] }
+143 error Please try running this command again as root/Administrator.
+144 error System Darwin 10.8.0
+145 error command "node" "/usr/local/bin/npm" "install" "nodester-cli" "-g"
+146 error cwd /Users/john.polacek/Sites/controldeck.js
+147 error node -v v0.8.14
+148 error npm -v 1.1.65
+149 error path /usr/local/lib/node_modules/nodester-cli
+150 error fstream_path /usr/local/lib/node_modules/nodester-cli
+151 error fstream_type Directory
+152 error fstream_class DirWriter
+153 error code EACCES
+154 error errno 3
+155 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/nodester-cli'
+156 error fstream_stack DirWriter._create (/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23)
+156 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+156 error fstream_stack Object.oncomplete (fs.js:297:15)
+157 verbose exit [ 3, true ]
