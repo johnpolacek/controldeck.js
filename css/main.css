@@ -43,7 +43,7 @@ section { max-width: 600px; margin: 0 auto;}
     text-align: center;
 }
 header { margin-bottom: 40px; }
-iframe { margin-bottom: 20px; }
+iframe { margin: 10px 0 20px; }
 h1, h2, h3 { 
     font-family: 'Wendy One', sans-serif; 
     text-transform: lowercase;
