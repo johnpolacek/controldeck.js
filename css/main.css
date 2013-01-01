@@ -42,7 +42,8 @@ section { max-width: 600px; margin: 0 auto;}
     padding: 30px 20px;
     text-align: center;
 }
-header { margin-bottom: 40px;}
+header { margin-bottom: 40px; }
+iframe { margin-bottom: 20px; }
 h1, h2, h3 { 
     font-family: 'Wendy One', sans-serif; 
     text-transform: lowercase;
