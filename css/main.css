@@ -63,10 +63,12 @@ h4, h5, h6 { font-weight: 700; }
 a, a:hover, a:active, a:visited { color: #55697b; }
 p a { font-weight: 700; font-style: italic; }
 ul { list-style: none; padding: 0; }
-code { 
+.code { 
+    text-align: left;
+    width: 540px;
     background: rgba(255,255,255,.4); 
-    padding: 5px 10px; 
-    margin: 10px; 
+    padding: 10px 20px; 
+    margin: 10px auto; 
     border: solid 1px rgba(0,0,0,.4);
     border-radius: 2px;
 }
