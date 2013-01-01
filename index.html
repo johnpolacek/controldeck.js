@@ -35,16 +35,24 @@
             <a href="https://github.com/dfcb/controldeck.js/archive/master.zip" class="btn btn-small">Download Zip</a>
             <a href="http://controldeck.aws.af.cm" class="btn btn-small">View Demo</a>
             <p class="intro">Use controldeck.js to run HTML5 presentation frameworks like deck.js, reveals.js and impress.js. Run locally or on a node.js server.</p>
+            <p><small><i>Note: the hosted demo is on a shared <a href="http://www.appfog.com/">appfog</a> instance, <br />so commands will be sent across all users browsing the slides.</i></small></p>
         </header>
 
         <section class="main">
             <iframe width="450" height="253" src="http://www.youtube.com/embed/74VVh8z33vM" frameborder="0" allowfullscreen></iframe>
             
-            <h3>How to Use</h3>
+            <h3>Getting Started</h3>
             <p>First, <a href="https://github.com/dfcb/controldeck.js/archive/master.zip">download the source</a>. Open up a terminal window, and run the app.</p>
             <p><pre><code>node app</code></pre></p>
             <p>Go to <a href="http://localhost:8080" target="_blank">http://localhost:8080</a> to view the demo page.</p>
             <p>Choose one of the demos and open the slides and controller links in separate windows. Push the buttons in the controller window to control the slides.</p>
+
+            <h3>Make Your Own</h3>
+            <p>Create your own slide deck using one of the presentation frameworks. The key is to embed the socket.io and controldeck-slide.js scripts at the bottom of the page, before the <code>&lt;/body&gt;</code> tag.</p>
+            <p><pre><code>&lt;!-- controldeck.js --&gt;
+&lt;script src="/socket.io/socket.io.js">&lt;/script&gt;
+&lt;script src="/controldeck-slides.js">&lt;/script&gt;</code></pre></p>
+            <p>Use the 2 button controller or create your own. Refer to the examples for how to do it. The code is  straightforward. The controller pages simply use Node.js and socket.io to pass along commands to the slides page.</p>
             
         </section>
 
