@@ -8,9 +8,9 @@
 
 <h3>Make Your Own</h3>
 <p>Create your own slide deck using one of the presentation frameworks. Embed the socket.io and controldeck-slide.js scripts at the bottom of the page, before the <code>&lt;/body&gt;</code> tag.</p>
-<p class="code"><code>&lt;!-- controldeck.js --&gt;<br />
-&lt;script src="/socket.io/socket.io.js">&lt;/script&gt;<br />
-&lt;script src="/controldeck-slides.js">&lt;/script&gt;</code></p>
+```<code>&lt;!-- controldeck.js --&gt;
+&lt;script src="/socket.io/socket.io.js">&lt;/script&gt;
+&lt;script src="/controldeck-slides.js">&lt;/script&gt;```
 <p>Use the 2 button controller or create your own. Refer to the examples for how to do it. The code is  straightforward. The controller pages simply use Node.js and socket.io to pass along commands to the slides page.</p>
 
 * * *
