@@ -2,7 +2,10 @@
 <h2>Control HTML5 Presentations with node.js</h2><p>Created by <a href="http://twitter.com/johnpolacek">John Polacek</a>
 <h3>Getting Started</h3>
 <p>First, <a href="https://github.com/dfcb/controldeck.js/archive/master.zip">download the source</a>. Open up a terminal window, install the dependencies, and run the app.</p>
-<p class="code"><code>npm install<br />node app</code></p>
+```bash
+$ npm install
+$ node app
+```
 <p>Go to <a href="http://localhost:8080" target="_blank">http://localhost:8080</a> to view the demo page.</p>
 <p>Choose one of the demos and open the slides and controller links in separate windows. Push the buttons in the controller window to control the slides.</p>
 
