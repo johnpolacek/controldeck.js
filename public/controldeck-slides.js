@@ -7,6 +7,7 @@ else if (typeof Reveal !== 'undefined')             messageHandler = updateRevea
 else if (typeof impress !== 'undefined')            messageHandler = updateImpress;
 else if (typeof jQuery.jmpress !== 'undefined')     messageHandler = updateJmpress;
 else if (typeof jQuery.scrolldeck !== 'undefined')  messageHandler = updateScrollDeck;
+else    messageHandler = updateGeneric;
 
 // separated in case we want to differentiate in the future
 function updateDeckJS(message) {
@@ -41,6 +42,12 @@ function updateJmpress(message) {
 }
 function updateScrollDeck(message) {
     console.log('updateScrollDeck '+message);
+    var e = jQuery.Event('keydown');
+    e.which = e.keyCode = parseInt(message,10);
+    $(document).trigger(e);
+}
+function updateGeneric(message) {
+    console.log('updateGeneric '+message);
     var e = jQuery.Event('keydown');
     e.which = e.keyCode = parseInt(message,10);
     $(document).trigger(e);
