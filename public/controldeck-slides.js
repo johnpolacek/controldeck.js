@@ -7,6 +7,7 @@ else if (typeof Reveal !== 'undefined')             messageHandler = updateRevea
 else if (typeof impress !== 'undefined')            messageHandler = updateImpress;
 else if (typeof jQuery.jmpress !== 'undefined')     messageHandler = updateJmpress;
 else if (typeof jQuery.scrolldeck !== 'undefined')  messageHandler = updateScrollDeck;
+else if (typeof Flowtime !== 'undefined')  			messageHandler = updateFlowtime;
 else    messageHandler = updateGeneric;
 
 // separated in case we want to differentiate in the future
@@ -58,10 +59,19 @@ var iosocket = io.connect();
 iosocket.on('connect', function () {
     console.log('connected');
 });
+
 iosocket.on('message', function(message) {
-    console.log('message '+message);
     messageHandler(message);
 });
+
+iosocket.on('key down', function(data) {
+    messageHandler("" +data.keyCode, data.shiftKey, data.altKey, data.ctrlKey, data.metaKey);
+});
+
+iosocket.on('key up', function(data) {
+    messageHandler("" + data.keyCode, data.shiftKey, data.altKey, data.ctrlKey, data.metaKey);
+});
+
 iosocket.on('disconnect', function() {
     console.log('disconnected');
 });

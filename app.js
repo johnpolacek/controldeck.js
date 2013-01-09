@@ -28,6 +28,22 @@ io.sockets.on('connection', function(socket){
 		socket.broadcast.emit('message', message);
 	});
 
+	socket.on('key down', function(data){
+		socket.broadcast.emit('key down', data);
+	});
+
+	socket.on('key up', function(data){
+		socket.broadcast.emit('key up', data);
+	});
+
+	socket.on('flowtime minimap complete', function(data){
+		socket.broadcast.emit('flowtime minimap complete', data);
+	});
+
+	socket.on('navigate', function(data){
+		socket.broadcast.emit('navigate', data);
+	});
+
 	socket.on('disconnect', function(){
 		console.log("Connection " + socket.id + " terminated.");
 	});
