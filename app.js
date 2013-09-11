@@ -14,10 +14,10 @@ var server = http.createServer(function (req, res) {
 
 	req.addListener('end', function () {
 		fileServer.serve(req, res);
-	});
+	}).resume();
 
-}).listen(8080, function() {
-    console.log('Listening at: http://localhost:8080');
+}).listen(process.env.PORT || 8080, function() {
+    console.log('Listening at: http://localhost:' + (process.env.PORT || 8080));
 });
 
 
