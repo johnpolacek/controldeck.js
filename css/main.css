@@ -186,6 +186,8 @@ ul { list-style: none; padding: 0; }
 
 .sep { height: 40px; }
 
+.ad { width: 468px; margin-left: -83px; margin-top: 30px; }
+
 footer {
     max-width: 450px; 
     margin: 0 auto;
